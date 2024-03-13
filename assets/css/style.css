@@ -1,0 +1,30 @@
+
+.icons{
+	display: flex;
+	position: absolute;
+	top: auto;
+	left: 43%;
+}
+.icons a{
+	width: 45px;
+	height: 35px;
+	position: relative;
+	display: block;
+	font-size: 23px;
+	text-align: center;
+	color: white;
+	background-color : black;
+	line-height: 38px;
+	margin: 0 9px;
+	border-radius: 45%;
+	box-shadow: 0 8px 7px rgba(0, 0, 0, 0.3); 
+}
+.icons a:nth-child(1):hover{
+	background-color: deeppink;
+}
+.icons a:nth-child(2):hover{
+	background-color: brown;
+}
+.icons a:nth-child(3):hover{
+	background-color: blue;
+}
